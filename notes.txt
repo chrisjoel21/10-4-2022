@@ -1,0 +1,44 @@
+10/4/2022
+----->Stack
+pop//delete -- need to check if it is empty
+push//inserts -- need to check the size
+we need integer type, arry size.
+Stack is very benifical in reversing
+
+extra_10_1_1 implement the stack
+
+
+----->stack as template-is a sample u can use for u.
+ex: int add(int x, int y);
+    float add(float x,float y );
+
+here we coukld use template
+template <Class T>
+T add(T x, T y){
+    return (x+y)
+}
+if we have a int and float 
+
+template<T,F>
+T add(T x, F y);
+
+extra_10_1_2
+how to apply template in sasar.h
+class name changed
+calling has changed 
+main includes sasar.cpp instead of sasar.h
+
+
+---->stack as linkedlist (we will have nodes)
+we will have the pointer as top;
+
+
+
+push = addatbeg
+pop = deletefromend
+
+extra_10_1_3
+mysatck.h
+
+
+10/6/2022
